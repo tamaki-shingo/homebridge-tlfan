@@ -1,0 +1,21 @@
+{
+  "name": "homebridge-tlfan",
+  "version": "0.0.1",
+  "description": "Things like Fan. plugin for homebridge(https://github.com/nfarina/homebridge)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=6.0.0",
+    "homebridge": ">=0.4.5"
+  },
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "author": "Shingo Tamaki",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.75.0"
+  }
+}

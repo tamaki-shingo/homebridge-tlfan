@@ -1,0 +1,25 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "CD:22:3D:E3:CE:30",
+        "port": 51826,
+        "pin": "031-45-156"
+    },
+    
+    "description": "sample config",
+
+    "platforms": [],
+
+    "accessories": [
+        {
+            "accessory": "TLFan",
+            "name": "ファン",
+            "on_url": "", // Your  Motor controll API
+            "off_url": "", // Your Motor control API
+            "speed_url": "", // Your Motor control API
+            "method": "POST",
+            "timeout": 10000,
+            "polling schedule": "*/1 * * * *"
+        }
+    ]
+}

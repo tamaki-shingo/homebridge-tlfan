@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 ### https://raw.github.com/github/gitignore/be3333655bffe9507d66cc864aee95ed6052b4ed/node.gitignore
 
+=======
+>>>>>>> origin/master
 # Logs
 logs
 *.log
@@ -16,6 +19,12 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 
+<<<<<<< HEAD
+=======
+# nyc test coverage
+.nyc_output
+
+>>>>>>> origin/master
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
@@ -25,14 +34,23 @@ coverage
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
+<<<<<<< HEAD
 # Dependency directory
 # https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
 node_modules
+=======
+# Dependency directories
+node_modules
+jspm_packages
+>>>>>>> origin/master
 
 # Optional npm cache directory
 .npm
 
 # Optional REPL history
 .node_repl_history
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> origin/master
